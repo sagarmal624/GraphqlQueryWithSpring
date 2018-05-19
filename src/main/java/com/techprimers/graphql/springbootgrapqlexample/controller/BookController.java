@@ -1,4 +1,4 @@
-package com.techprimers.graphql.springbootgrapqlexample.resource;
+package com.techprimers.graphql.springbootgrapqlexample.controller;
 
 import com.techprimers.graphql.springbootgrapqlexample.service.GraphQLService;
 import graphql.ExecutionResult;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/rest/books")
 @RestController
-public class BookResource {
+public class BookController {
 
     @Autowired
     GraphQLService graphQLService;
